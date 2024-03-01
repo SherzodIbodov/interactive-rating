@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background: #131518;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 412px;
+  min-height: 416px;
+  margin: 0 auto;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+  border-radius: 24px;
+}
+.container img {
+  padding: 45px 129px 32px 121px;
+}
+.container .information {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .information button {
+  border: none;
+  width: 100%;
+  max-width: 168px;
+  min-height: 32px;
+  background: #262e38;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 29px;
+}
+.container .information button a {
+  text-decoration: none;
+  color: #fc7614;
+}
+.container .information h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.container .information p {
+  width: 100%;
+  max-width: 279px;
+  min-height: 66px;
+  color: #969fad;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+@media (max-width: 420px) {
+  .container {
+    text-align: center;
+  }
+  .container img {
+    margin-top: 34px;
+    margin-bottom: 24px;
+    padding: 0;
+  }
+  .container .information button {
+    font-size: 14px;
+  }
+  .container .information h1 {
+    font-size: 24px;
+  }
+  .container .information p {
+    font-size: 14px;
+  }
+}
